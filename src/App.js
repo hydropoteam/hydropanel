@@ -1,19 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
-import Header from './components/Header.jsx';
-import Main from './components/Main.jsx';
-import Footer from './components/Footer.jsx';
+import React, { Component } from "react";
+import "./App.css";
+import Rooter from "./Rooter.jsx";
 
 class App extends Component {
-	render() {
-		return (
-			<div>
-				<Header />
-				<Main />
-				<Footer />
-			</div>
-		);
-	}
+  render() {
+    return <Rooter />;
+  }
 }
 
 export default App;
