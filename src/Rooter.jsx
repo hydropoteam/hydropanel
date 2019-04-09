@@ -13,7 +13,7 @@ class Rooter extends React.Component {
       <BrowserRouter>
         <switch>
           <Route path="/" exact component={Welcome} />
-          <Route path="/Panel" component={MainPanel} />
+          <Route path="/Panel" exact component={MainPanel} />
         </switch>
       </BrowserRouter>
     );
